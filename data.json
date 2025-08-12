@@ -1,0 +1,240 @@
+[
+  {
+    "id": "fiat-argo-10-3c-2019plus",
+    "aliases": ["Argo 1.0", "Argo 3 cilindros", "Fiat Argo 1.0"],
+    "marca": "Fiat",
+    "modelo": "Argo",
+    "motor": "1.0 3C",
+    "anos": "2019+",
+    "oleo_motor": {
+      "viscosidade": "5W-30",
+      "especificacao": ["API SN", "ACEA A5/B5"],
+      "capacidade_sem_filtro_l": 2.8,
+      "capacidade_com_filtro_l": 3.0,
+      "obs": "Adicionar 0,2 L com filtro."
+    },
+    "oleo_cambio": {
+      "tipo": "ATF",
+      "capacidade_l": 6.0,
+      "obs": "Verificar nível com motor em marcha lenta."
+    },
+    "diferencial": null,
+    "notas": ["Trocar arruela do bujão"]
+  },
+  {
+    "id": "chevrolet-onix-10-3c-2020plus",
+    "aliases": ["Onix", "Ônix", "Onix 1.0"],
+    "marca": "Chevrolet",
+    "modelo": "Onix",
+    "motor": "1.0 3C",
+    "anos": "2020+",
+    "oleo_motor": {
+      "viscosidade": "5W-30",
+      "especificacao": ["API SP"],
+      "capacidade_sem_filtro_l": 2.7,
+      "capacidade_com_filtro_l": 2.9,
+      "obs": "Usar óleo sintético."
+    },
+    "oleo_cambio": null,
+    "diferencial": null,
+    "notas": []
+  },
+  {
+    "id": "hyundai-hb20-10-3c-2019plus",
+    "aliases": ["HB20", "h b vinte", "Hyundai HB20"],
+    "marca": "Hyundai",
+    "modelo": "HB20",
+    "motor": "1.0 3C",
+    "anos": "2019+",
+    "oleo_motor": {
+      "viscosidade": "5W-30",
+      "especificacao": ["API SP"],
+      "capacidade_sem_filtro_l": 2.8,
+      "capacidade_com_filtro_l": 3.0,
+      "obs": "Completar até a marca."
+    },
+    "oleo_cambio": {
+      "tipo": "ATF",
+      "capacidade_l": 5.8,
+      "obs": "Troca a cada 60.000 km."
+    },
+    "diferencial": null,
+    "notas": []
+  },
+  {
+    "id": "volkswagen-gol-16-2018plus",
+    "aliases": ["Gol", "VW Gol 1.6"],
+    "marca": "Volkswagen",
+    "modelo": "Gol",
+    "motor": "1.6",
+    "anos": "2018+",
+    "oleo_motor": {
+      "viscosidade": "5W-40",
+      "especificacao": ["API SN"],
+      "capacidade_sem_filtro_l": 3.2,
+      "capacidade_com_filtro_l": 3.5,
+      "obs": "Trocar filtro a cada troca."
+    },
+    "oleo_cambio": {
+      "tipo": "Gear Oil 75W-90",
+      "capacidade_l": 2.0,
+      "obs": "Câmbio manual."
+    },
+    "diferencial": null,
+    "notas": []
+  },
+  {
+    "id": "renault-sandero-10-3c-2017plus",
+    "aliases": ["Sandero 1.0", "Renault Sandero"],
+    "marca": "Renault",
+    "modelo": "Sandero",
+    "motor": "1.0 3C",
+    "anos": "2017+",
+    "oleo_motor": {
+      "viscosidade": "5W-30",
+      "especificacao": ["API SN"],
+      "capacidade_sem_filtro_l": 2.8,
+      "capacidade_com_filtro_l": 3.0,
+      "obs": "Óleo sintético recomendado."
+    },
+    "oleo_cambio": null,
+    "diferencial": null,
+    "notas": ["Apertar bujão com torque recomendado."]
+  },
+  {
+    "id": "toyota-corolla-20-2019plus",
+    "aliases": ["Corolla", "Toyota Corolla 2.0"],
+    "marca": "Toyota",
+    "modelo": "Corolla",
+    "motor": "2.0",
+    "anos": "2019+",
+    "oleo_motor": {
+      "viscosidade": "0W-20",
+      "especificacao": ["API SP", "ILSAC GF-6"],
+      "capacidade_sem_filtro_l": 3.9,
+      "capacidade_com_filtro_l": 4.2,
+      "obs": "Usar óleo 0W-20 para melhor eficiência."
+    },
+    "oleo_cambio": {
+      "tipo": "CVT Fluid",
+      "capacidade_l": 6.5,
+      "obs": "Usar fluido específico CVT."
+    },
+    "diferencial": null,
+    "notas": []
+  },
+  {
+    "id": "ford-ranger-32-td-4x4-2016plus",
+    "aliases": ["Ranger diesel", "Ranger 3.2", "Ford Ranger 4x4"],
+    "marca": "Ford",
+    "modelo": "Ranger",
+    "motor": "3.2 TD",
+    "anos": "2016+",
+    "oleo_motor": {
+      "viscosidade": "5W-30",
+      "especificacao": ["API CJ-4"],
+      "capacidade_sem_filtro_l": 9.0,
+      "capacidade_com_filtro_l": 9.5,
+      "obs": "Verificar nível após funcionar o motor."
+    },
+    "oleo_cambio": {
+      "tipo": "ATF Mercon LV",
+      "capacidade_l": 10.0,
+      "obs": "Automático 6 marchas."
+    },
+    "diferencial": {
+      "tipo": "75W-140",
+      "capacidade_l": 2.0,
+      "obs": "Traseiro com LSD."
+    },
+    "notas": ["Apertar tampas do diferencial cruzado."]
+  },
+  {
+    "id": "honda-fit-15-2015plus",
+    "aliases": ["Fit 1.5", "Honda Fit"],
+    "marca": "Honda",
+    "modelo": "Fit",
+    "motor": "1.5",
+    "anos": "2015+",
+    "oleo_motor": {
+      "viscosidade": "0W-20",
+      "especificacao": ["API SN"],
+      "capacidade_sem_filtro_l": 3.2,
+      "capacidade_com_filtro_l": 3.4,
+      "obs": "Preferir 0W-20 em clima frio."
+    },
+    "oleo_cambio": {
+      "tipo": "CVT Fluid",
+      "capacidade_l": 3.5,
+      "obs": "Troca parcial recomendada."
+    },
+    "diferencial": null,
+    "notas": []
+  },
+  {
+    "id": "nissan-kicks-16-2018plus",
+    "aliases": ["Kicks 1.6", "Nissan Kicks"],
+    "marca": "Nissan",
+    "modelo": "Kicks",
+    "motor": "1.6",
+    "anos": "2018+",
+    "oleo_motor": {
+      "viscosidade": "5W-30",
+      "especificacao": ["API SN"],
+      "capacidade_sem_filtro_l": 3.7,
+      "capacidade_com_filtro_l": 3.9,
+      "obs": "Completar após rodar alguns minutos."
+    },
+    "oleo_cambio": {
+      "tipo": "CVT Fluid",
+      "capacidade_l": 4.0,
+      "obs": "Verificar com scanner quando possível."
+    },
+    "diferencial": null,
+    "notas": []
+  },
+  {
+    "id": "fiat-mobi-10-3c-2017plus",
+    "aliases": ["Mobi 1.0", "Fiat Mobi"],
+    "marca": "Fiat",
+    "modelo": "Mobi",
+    "motor": "1.0 3C",
+    "anos": "2017+",
+    "oleo_motor": {
+      "viscosidade": "5W-30",
+      "especificacao": ["API SN"],
+      "capacidade_sem_filtro_l": 2.7,
+      "capacidade_com_filtro_l": 2.9,
+      "obs": "Somente motor (sem dados de câmbio)."
+    },
+    "oleo_cambio": null,
+    "diferencial": null,
+    "notas": []
+  },
+  {
+    "id": "volkswagen-amarok-30-td-v6-2018plus",
+    "aliases": ["Amarok V6", "VW Amarok Diesel"],
+    "marca": "Volkswagen",
+    "modelo": "Amarok",
+    "motor": "3.0 TD V6",
+    "anos": "2018+",
+    "oleo_motor": {
+      "viscosidade": "5W-30",
+      "especificacao": ["API CJ-4"],
+      "capacidade_sem_filtro_l": 7.0,
+      "capacidade_com_filtro_l": 7.5,
+      "obs": "Usar óleo aprovado pelo fabricante."
+    },
+    "oleo_cambio": {
+      "tipo": "ATF",
+      "capacidade_l": 9.0,
+      "obs": "Automático 8 marchas."
+    },
+    "diferencial": {
+      "tipo": "75W-90",
+      "capacidade_l": 1.6,
+      "obs": "Dianteiro e traseiro independentes."
+    },
+    "notas": ["Verificar vazamentos após serviço."]
+  }
+]
