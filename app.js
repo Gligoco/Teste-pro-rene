@@ -15,7 +15,7 @@
   const elements = {
     offlineBanner: document.getElementById('offlineBanner'),
     searchInput: document.getElementById('searchInput'),
-    voiceBtn: document.getElementById('voiceBtn'),
+    // voice removed
     clearBtn: document.getElementById('clearBtn'),
     recentList: document.getElementById('recentList'),
     recentSection: document.getElementById('recentSection'),
@@ -31,8 +31,7 @@
   let allData = [];
   let fuse = null;
   let fuseData = [];
-  let recognition = null;
-  let isRecognizing = false;
+
 
   function normalizeString(value) {
     return (value || '')
@@ -340,54 +339,7 @@
   }
 
   function setupVoice() {
-    const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
-    if (!SpeechRecognition) {
-      elements.voiceBtn.disabled = true;
-      elements.voiceBtn.title = 'Voz não suportada';
-      return;
-    }
-    recognition = new SpeechRecognition();
-    recognition.lang = 'pt-BR';
-    recognition.interimResults = false;
-    recognition.maxAlternatives = 1;
-
-    recognition.onresult = (event) => {
-      const transcript = Array.from(event.results)
-        .map((r) => r[0]?.transcript || '')
-        .join(' ');
-      elements.searchInput.value = transcript;
-      doSearch();
-      isRecognizing = false;
-      updateVoiceBtn();
-    };
-    recognition.onerror = () => { isRecognizing = false; updateVoiceBtn(); };
-    recognition.onend = () => { isRecognizing = false; updateVoiceBtn(); };
-
-    elements.voiceBtn.addEventListener('click', () => {
-      if (isRecognizing) {
-        recognition.stop();
-        isRecognizing = false;
-        updateVoiceBtn();
-      } else {
-        try {
-          recognition.start();
-          isRecognizing = true;
-          updateVoiceBtn();
-        } catch (_) {
-          // ignore
-        }
-      }
-    });
-  }
-
-  function updateVoiceBtn() {
-    if (isRecognizing) {
-      elements.voiceBtn.textContent = '⏹️';
-      elements.voiceBtn.ariaLabel = 'Parar reconhecimento de voz';
-    } else {
-      elements.voiceBtn.textContent = '🎤';
-      elements.voiceBtn.ariaLabel = 'Falar (pt-BR)';
-    }
+    // Voice feature removed
   }
 
   function showToast(message, withReload = false) {

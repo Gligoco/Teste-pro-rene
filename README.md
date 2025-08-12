@@ -4,7 +4,7 @@ Aplicativo estático e offline para consulta rápida de capacidades e especifica
 
 ## O que faz
 - Busca instantânea com tolerância a erros (Fuse.js)
-- Entrada por voz (pt-BR), quando suportado
+
 - Funciona offline após o primeiro carregamento (PWA + Service Worker)
 - Atalhos: links diretos por `#/id` e geração de QR Code
 - Lista de recentes (últimos 5)

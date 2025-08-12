@@ -23,8 +23,7 @@
       <section class="search-section">
         <label class="visually-hidden" for="searchInput">Buscar por modelo</label>
         <div class="search-box" role="search">
-          <input id="searchInput" type="search" inputmode="search" autocomplete="off" placeholder="Digite ou fale: ex. Onix 1.0" aria-label="Buscar modelo" />
-          <button id="voiceBtn" class="icon-btn" aria-label="Falar (pt-BR)" title="Falar (pt-BR)">🎤</button>
+          <input id="searchInput" type="search" inputmode="search" autocomplete="off" placeholder="Digite: ex. Onix 1.0" aria-label="Buscar modelo" />
           <button id="clearBtn" class="icon-btn" aria-label="Limpar" title="Limpar">✖</button>
         </div>
         <p class="help" id="helpText">Dica: você pode buscar por marca, modelo, motorização ou apelidos. Ex.: "Onix 1.0"</p>
@@ -38,7 +37,7 @@
       <section id="resultsSection" aria-labelledby="resultsTitle">
         <h2 id="resultsTitle" class="visually-hidden">Resultados</h2>
         <div id="emptyState" class="empty">
-          <p>Nenhum resultado ainda. Comece digitando acima, ou toque no microfone para falar.</p>
+          <p>Nenhum resultado ainda. Comece digitando acima.</p>
           <p class="hint">Exemplos: "Onix 1.0", "HB20 1.6", "Corolla 2.0"</p>
           <p><a id="requestLink" href="mailto:?subject=Solicitar%20inclus%C3%A3o%20no%20Cat%C3%A1logo&body=Por%20favor%2C%20incluir%20o%20seguinte%20modelo%3A%0A-%20Marca%3A%0A-%20Modelo%3A%0A-%20Motor%3A%0A-%20Ano%3A%0A-%20Dados%20de%20%C3%B3leo%3A%0A">Solicitar inclusão</a></p>
         </div>
